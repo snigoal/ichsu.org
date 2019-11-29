@@ -458,3 +458,34 @@ img {
 #main {
     float: left;
 }
+
+.location-img {
+    margin: 0 5%;
+}
+
+.location-info {
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.location-info>ul {
+    line-height: 200%;
+    margin: 3% auto 0;
+}
+
+@media (min-width:768px) {
+    .location-img {
+        float: left;
+        width: 45%;
+        margin-right: 0;
+    }
+    .location-info {
+        float: right;
+        width: 48%;
+        margin-left: 2%;
+    }
+    .location-info>ul {
+        line-height: 250%;
+        margin-top: 10%;
+    }
+}
