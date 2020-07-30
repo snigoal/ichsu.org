@@ -51,9 +51,9 @@ img {
     padding: 0;
 }
 
-.table1{
-     height: 80%;
-     width: 90%;
+.table1 {
+    height: 80%;
+    width: 90%;
 }
 
 #Topic {
@@ -141,8 +141,6 @@ img {
 #leftPage_block {}
 
 
-
-
 /*border:1px solid #CDAA7D;*/
 
 #leftPage_tiltle {
@@ -154,8 +152,6 @@ img {
     padding-left: 8px;
     background-color: #E1E0D9;
 }
-
-
 
 
 /*border:1px dotted blue; background:#CDAA7D; */
@@ -171,8 +167,6 @@ img {
     margin-top: 0px;
     height: 18px;
 }
-
-
 
 
 /*background:#EEC591;*/
@@ -205,8 +199,6 @@ img {
 #leftPage_block ul .addHeight {
     height: 32px;
 }
-
-
 
 
 /* #topBar_load{height:400px; margin-bottom:10px;}*/
@@ -333,8 +325,9 @@ img {
     border: 0px;
     border-radius: 0px;
 }
-.navbar-toggle{
-     margin-bottom: 0px;
+
+.navbar-toggle {
+    margin-bottom: 0px;
     background-color: #C5C5C5;
     border: 0px;
     border-radius: 0px;
@@ -376,6 +369,7 @@ img {
     position: relative;
     display: inline-block;
 }
+
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -390,13 +384,18 @@ img {
     text-decoration: none;
     display: block;
 }
+
 .dropdown-menu a:hover {
     background-color: #f1f1f1
 }
+
 .dropdown-toggle {
     background-color: #C5C5C5;
 }
+
+
 /*文档宽度小于590像素*/
+
 @media (max-width: 590px) {
     .navbar-nav>li {
         width: 100%;
@@ -413,8 +412,15 @@ img {
     #Topic a {
         font-size: 24px;
     }
+    .index_table tr>td:first-child {
+        text-align: left;
+        width: 50%;
+    }
 }
+
+
 /*文档宽度大于590像素*/
+
 @media (min-width: 590px) {
     .navbar-nav>li {
         width: 100%;
@@ -425,22 +431,25 @@ img {
     .dropdown:hover .dropdown-content {
         display: none;
     }
-    
     #topPic_Item {
         font-size: 16px;
     }
-    
+    .index_table tr>td:first-child {
+        text-align: left;
+        width: 35%;
+    }
 }
+
+
 /*文档宽度大于768像素*/
+
 @media (min-width:768px) {
     .navbar-nav>li {
         width: 16.6%;
     }
-  
     .dropdown:hover .dropdown-menu {
-    display: block;
+        display: block;
     }
-   
     .container {
         width: 750px
     }
@@ -448,7 +457,10 @@ img {
         font-size: 22px;
     }
 }
+
+
 /*文档宽度大于992像素*/
+
 @media (min-width:992px) {
     .navbar-nav>li {
         width: 16.6%;
@@ -456,9 +468,8 @@ img {
     .container {
         width: 970px
     }
- 
     .dropdown:hover .dropdown-menu {
-    display: block;
+        display: block;
     }
     #topPic_Item {
         font-size: 28px;
