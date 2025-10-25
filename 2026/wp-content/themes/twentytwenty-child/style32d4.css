@@ -1,0 +1,19 @@
+/*
+Theme Name:  NUMISHEET 2025
+Template: 	 twentytwenty
+Theme URI:	 https://wordpress.org/themes/twentytwenty/
+Author:		 Fa-Ro Marketing GmbH
+Author URI:	 https://fa-ro.de
+Version:	 1.0.0
+License:	 GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: numisheet
+*/
+
+
+
+/* Font Families ----------------------------- */
+
+.entry-content {
+	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
